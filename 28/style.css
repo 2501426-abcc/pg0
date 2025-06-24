@@ -1,0 +1,64 @@
+body{
+    margin: 0px;
+}
+.main_nav{
+    color: #ffffff;
+    width: 100%;
+    box-sizing: border-box;
+}
+.main_nav ul{
+    color: #ffffff;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.main_nav li{
+    padding: 1%;
+}
+.main_nav a{
+    color: #000000;
+    padding: 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.main_nav a:hover{
+    border-bottom: 3px solid;
+    border-color: #aaaaaa;
+}
+.main_introduction{
+    background-color: #ffbeda;
+    margin-top: 3%;
+    border-left: 10px solid;
+    border-color: #ff5192;
+    display: flex;
+    justify-content: left;
+}
+.main_introduction img{
+    width: 20%;
+    border-radius: 100%;
+}
+.introduction{
+    margin-left: 5%;
+}
+.hobby{
+    background-color: #ffffcc;
+    border-left: 10px solid;
+    border-color: #ffff66;
+}
+.main_book img{
+    width: 30%;
+}
+.book{
+    display: flex;
+    justify-content: left;
+}
+.food{
+    background-color: #aaffff;
+    border-left: 10px solid;
+    border-color: #66ffff;
+}
+footer{
+    position: fixed;bottom: 0%;
+}
